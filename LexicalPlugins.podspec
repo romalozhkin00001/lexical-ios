@@ -6,7 +6,8 @@
   {name: "LexicalInlineImagePlugin", dependencies: ["Lexical"]}
 ].each do |package| 
   Pod::Spec.new do |spec|
-    spec.name         = package["name"]
+    name = package[:name]
+    spec.name         = name
     spec.version      = "0.0.1"
     spec.summary      = "A short description of Lexical."
     spec.homepage = 'https://github.com/facebook/lexical-ios'
@@ -18,9 +19,9 @@
   
     spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" , :branch => "release0.1"}
   
-    spec.source_files  = "/Plugins//#{package["name"]}/#{package["name"]}/**/*.swift"
+    spec.source_files  = "/Plugins//#{name}/#{name}/**/*.swift"
   
-    package["dependencies"].each do |dependency|
+    package[:dependencies].each do |dependency|
       spec.dependency dependency
     end
   end
