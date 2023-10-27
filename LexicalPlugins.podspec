@@ -29,6 +29,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Plugins/**/*.swift"
 
-  spec.dependency = "Lexical"
+  spec.dependency "Lexical"
 
 end
