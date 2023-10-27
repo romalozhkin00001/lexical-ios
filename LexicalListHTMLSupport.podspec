@@ -11,7 +11,7 @@
   
     spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" , :branch => "release0.1"}
   
-    spec.source_files  = "/Plugins//LexicalListHTMLSupport/LexicalListHTMLSupport/**/*.swift"
+    spec.source_files  = "Plugins//LexicalListHTMLSupport/LexicalListHTMLSupport/**/*.swift"
   
     spec.dependency "Lexical"
     spec.dependency "LexicalListPlugin"
