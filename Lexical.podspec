@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
 
 
-  spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" , :branch => "realease0.1"}
+  spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" , :branch => "release0.1"}
 
   spec.source_files  = "Lexical/**/*.swift"
 
