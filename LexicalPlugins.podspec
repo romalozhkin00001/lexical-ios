@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" }
 
-  spec.source_files  = "Plugins/**/*.swift",
+  spec.source_files  = "Plugins/**/*.swift"
 
-  spec.dependency = "Lexical", "~>0.0.1"
+  spec.dependency = "Lexical"
 
 end
