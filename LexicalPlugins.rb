@@ -23,7 +23,7 @@ template = ERB.new <<-EOF
   
     spec.source       = { :git => "git@github.com:romalozhkin00001/lexical-ios.git" , :branch => "release0.1"}
   
-    spec.source_files  = "Plugins//<%= package[:name] %>/<%= package[:name] %>/**/*.swift"
+    spec.source_files  = "Plugins/<%= package[:name] %>/<%= package[:name] %>/**/*.swift"
   
     <% package[:dependencies].each do |dependency| %>spec.dependency "<%= dependency %>"
     <% end %>
