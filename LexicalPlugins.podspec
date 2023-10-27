@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "LexicalPlugins"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of Lexical."
-
+  spec.homepage = 'https://github.com/facebook/lexical-ios'
 
   spec.license      = "MIT"
   spec.author             = "r.lozhkin"
